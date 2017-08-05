@@ -1,0 +1,33 @@
+{
+  "name": "mqtt-visu",
+  "version": "0.0.2",
+  "homepage": "https://github.com/hobbyquaker/mqtt-visu",
+  "authors": [
+    "Sebastian Raff <hq@ccu.io> https://github.com/hobbyquaker"
+  ],
+  "description": "A collection of Polymer Elements to create MQTT visualization and control.",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "mqtt",
+    "smarthome",
+    "element-collection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hobbyquaker/mqtt-visu.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mqtt-connection": "hobbyquaker/mqtt-connection#*",
+    "mqtt-wrapper": "hobbyquaker/mqtt-wrapper#*"
+  },
+  "main": "mqtt-visu.html"
+}
