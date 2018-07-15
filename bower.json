@@ -1,6 +1,6 @@
 {
   "name": "mqtt-visu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/hobbyquaker/mqtt-visu",
   "authors": [
     "Sebastian Raff <hq@ccu.io> https://github.com/hobbyquaker"
@@ -26,8 +26,8 @@
     "tests"
   ],
   "dependencies": {
-    "mqtt-connection": "hobbyquaker/mqtt-connection#*",
-    "mqtt-wrapper": "hobbyquaker/mqtt-wrapper#*"
+    "mqtt-connection": "@hobbyquaker/mqtt-connection#*",
+    "mqtt-wrapper": "@hobbyquaker/mqtt-wrapper#*"
   },
   "main": "mqtt-visu.html"
 }
